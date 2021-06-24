@@ -22,7 +22,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pip install django
+  pip install django whitenoise gunicorn
 ```
 
 Start the server
