@@ -2,7 +2,7 @@
 
 Taskwiq, a simple user-friendly web app to Keep Track of your daily tasks and complete them on the go.
 
-Website: [ https://taskwiq.herokuapp.com/login/?next=/ ]
+Website: [ https://taskwiq.herokuapp.com ]
 
 
 ## Run Locally
