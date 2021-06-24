@@ -1,0 +1,30 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+
+<div class="login-header-bar"> 
+    <div>
+        <h1 style="color:rgba(29, 27, 27, 0.89)">CREATE NEW ACCOUNT</h1>
+        <h4 style="margin: 0;text-align:center;"><strong>Write . Complete . Repeat </strong>🎉</h3>
+    </div>
+</div>
+
+<div><form method="POST">
+    {% csrf_token %}
+
+    <label>Username:</label>
+    {{form.username}}
+    
+    <label>Set Password:</label>
+    {{form.password1}}
+    
+    <label>Confirm Password:</label>
+    {{form.password2}}
+    
+    <input style="margin-top: 10px;" type="submit" class="button" value="Register">
+</form>
+    <h5 style="font-size: 20px; text-align:right;text-decoration:none;padding:10px;">Already Have an Account?
+        <a style="text-shadow: 1px 1px #0febbb;text-decoration:none;" href="{% url 'login' %}">Login</a>&#8677;</h5>    
+</div>
+
+{% endblock content %}
