@@ -32,7 +32,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](Screenshots.psd)
+![Screenshots](Screenshots.psd)
 
 
 ## Tech Stack used
